@@ -130,6 +130,8 @@ margin-bottom: 40px;
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
 background: #00252E;
 
 }
