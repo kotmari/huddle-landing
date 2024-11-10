@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    /* margin: 0;
+    padding-inline: 30px; */
+}
+
+.container {
+  max-width: 1262px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.poppins-semibold {
+  font-weight: 600;
+}
+.poppins-regular {
+  font-weight: 400;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.btn {
+   text-decoration: none;
+  background: #ffffff;
+  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.0954201);
+  border-radius: 24px;
+  padding: 14px 64px;
+  /* min-width: 200px; */
+  color: #00252E;
+}
+
+.fuksiy{
+    background-color: #FF52C1;
+    color: #ffffff;
+}
+
+header {
+    justify-items: center;
+    width: 1280px;
+    padding: 68px 0;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+
+}
+
+
+h1 {
+font-size: 40px;
+line-height: 60px;
+color: #00252E;
+}
+
+p {
+font-size: 18px;
+line-height: 27px;
+color: #00252E;
+font-weight: 400;
+}
+
+h2 {
+font-size: 28px;
+line-height: 42px;
+color: #00252E;
+margin-bottom: 16px;
+}
+
+.header-content{
+    display: flex;
+    gap: 54px;
+    padding: 70px 0;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+
+}
+
+.item {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+gap: 168px;
+background: #FFFFFF;
+box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.07);
+border-radius: 16px;
+padding: 44px 32px;
+margin-bottom: 40px;
+}
+
+/* .item-content{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+} */
+
+.item-text {
+    max-width: 488px;
+    color: #808E9A;
+}
+
+footer {
+background: #00252E;
+
+}
+
+
