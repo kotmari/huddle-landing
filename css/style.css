@@ -117,12 +117,12 @@ padding: 44px 32px;
 margin-bottom: 40px;
 }
 
-/* .item-content{
+.item-content{
     display: flex;
     flex-direction: column;
     justify-items: center;
 
-} */
+}
 
 .item-text {
     max-width: 488px;
