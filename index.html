@@ -3,14 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,27 +19,26 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="./css/style.css" />
-
     <title>
       Frontend Mentor | Huddle landing page with alternating feature blocks
     </title>
   </head>
   <body>
-    <!-- <header>
-      <div>
+    <header>
+      <div class="container">
         <div class="header-top">
           <a href="#">
             <img src="./images/logo.svg" alt="Logo" width="230" height="31" />
-            <a class="btn" href="#">Try It Free</a>
+            <a class="btn btn-green" href="#">Try It Free</a>
           </a>
         </div>
 
         <div class="header-content">
           <div class="title">
             <h1 class="poppins-semibold">
-              Build The Community Your Fans Will Love
+              Build The Community <br />
+              Your Fans Will Love
             </h1>
 
             <p class="open-sans">
@@ -50,102 +47,185 @@
               you engage in genuine discussion.
             </p>
 
-            <a href="#" class="btn fuksiy"> Get Started For Free</a>
+            <a href="#" class="btn bg-fuksiy">Get Started For Free</a>
           </div>
-          <img
-            src="./images/illustration-mockups.svg"
-            alt="Mockups"
-            width="680"
-            height="482"
-          />
+          <div class="header-img">
+            <img
+              src="./images/illustration-mockups.svg"
+              alt="Mockups"
+              width="680"
+              height="482"
+            />
+          </div>
         </div>
       </div>
-    </header> -->
+    </header>
 
     <main class="container">
-      <article class="item">
-        <div class="item-content">
-          <h2 class="poppins-semibold item-title">Grow Together</h2>
-          <p class="open-san item-text">
-            Generate meaningful discussions with your audience and build a
-            strong, loyal community. Think of the insightful conversations you
-            miss out on with a feedback form.
-          </p>
-        </div>
-        <img
-        src="./images/illustration-grow-together.svg"
-        alt="Grow Together"
-        height="332"
-        width="406"
-      />
-      </article>
+      <section>
+        <article class="item">
+          <div class="item-content">
+            <h2 class="poppins-semibold">Grow Together</h2>
+            <p class="open-sans item-text">
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
+          </div>
+          <div class="item-img"></div>
+        </article>
 
-      <article class="item">
-        <img
-        src="./images/illustration-flowing-conversation.svg"
-        alt="Flowing Conversation"
-        height="332"
-        width="406"
-      />
-        <div class="item-content">
-          <h2 class="poppins-semibold tem-title">Flowing Conversations</h2>
-          <p class="open-san item-text">
-            You wouldn't paginate a conversation in real life, so why do it
-            online? Our threads have just-in-time loading for a more natural
-            flow.
-          </p>
-        </div>
-      </article>
+        <article class="item">
+          <div class="item-img img-flowing"></div>
+          <div class="item-content">
+            <h2 class="poppins-semibold">Flowing Conversations</h2>
+            <p class="open-sans item-text">
+              You wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+          </div>
+        </article>
 
-      <article class="item">
-        <div class="item-content">
-          <h2 class="poppins-semibold tem-title">Your Users</h2>
-          <p class="open-san item-text">
-            It takes no time at all to integrate Huddle with your app's
-            authentication solution. This means, once signed in to your app,
-            your users can start chatting immediately.
-          </p>
-        </div>
-        <img
-        src="./images/illustration-your-users.svg"
-        alt="Users Image"
-        height="332"
-        width="406"
-      />
-      </article>
+        <article class="item">
+          <div class="item-content">
+            <h2 class="poppins-semibold">Your Users</h2>
+            <p class="open-sans item-text">
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </div>
+          <div class="item-img img-user"></div>
+        </article>
+      </section>
     </main>
-    
-    <!-- <footer>
+
+    <footer>
       <div class="footer-top">
         <h3 class="poppins-semibold">Ready To Build Your Community?</h3>
-        <a href="#" class="btn fuksiy">Get Started For Free</a>
+        <a href="#" class="btn bg-fuksiy">Get Started For Free</a>
       </div>
+      <div class="container">
+        <div class="footer-content">
+          <a href="#" >
+            <img
+              src="/images/footer-logo.svg"
+              alt="Logo"
+              width="154"
+              height="24"
+              class="footer-logo"
+            />
+          </a>
+          <div class="footer-info">
+            <address class="open-sans">
+              <ul>
+                <li>
+                  <a class="address-item" href="#">
+                    <img
+                      src="./images/location.svg"
+                      alt="Locotion"
+                      width="24"
+                      height="24"
+                    />
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua
+                    </span>
+                  </a>
+                </li>
 
-      <address>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua
-        </p>
+                <li>
+                  <a class="address-item" href="tel:+15431234567">
+                    <img
+                      src="./images/phone.svg"
+                      alt="Phone icon"
+                      width="24"
+                      height="24"
+                    /><span>+1-543-123-4567</span></a
+                  >
+                </li>
+                <li>
+                  <a class="address-item" href="mailto:example@huddle.com">
+                    <img
+                      src="./images/email.svg"
+                      alt="Email icon"
+                      width="24"
+                      height="24"
+                    /><span>example@huddle.com</span></a
+                  >
+                </li>
+              </ul>
+            </address>
 
-        <a href="tel:+15431234567">+1-543-123-4567</a>
-        <a href="maito:example@huddle.com">example@huddle.com</a>
-      </address>
+            <nav class="nav-items open-sans">
+              <ul>
+                <li class="nav-item"><a href="#">About Us</a></li>
+                <li class="nav-item"><a href="#">What We Do</a></li>
+                <li class="nav-item"><a href="#">FAQ</a></li>
+              </ul>
 
-      <nav>
-        <ul>
-          <li>About Us</li>
-          <li>What We Do</li>
-          <li>FAQ</li>
-        </ul>
-
-        <ul>
-          <li>Career</li>
-          <li>Blog</li>
-          <li>Contact Us</li>
-        </ul>
-      </nav>
-
-      <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
-    </footer> -->
+              <ul>
+                <li class="nav-item"><a href="#">Career</a></li>
+                <li class="nav-item"><a href="#">Blog</a></li>
+                <li class="nav-item"><a href="#">Contact Us</a></li>
+              </ul>
+            </nav>
+            <div class="social-block">
+              <div class="social">
+                <a class="bg-icons" href="#">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </a>
+                <a class="bg-icons" href="#">
+                  <svg
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M22 5.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.343 8.343 0 0 1-2.605.981A4.13 4.13 0 0 0 15.85 4a4.068 4.068 0 0 0-4.1 4.038c0 .31.035.618.105.919A11.705 11.705 0 0 1 3.4 4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 6.1 13.635a4.192 4.192 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 2 18.184 11.732 11.732 0 0 0 8.291 20 11.502 11.502 0 0 0 19.964 8.5c0-.177 0-.349-.012-.523A8.143 8.143 0 0 0 22 5.892Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </a>
+                <a class="bg-icons" href="#">
+                  <svg
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
