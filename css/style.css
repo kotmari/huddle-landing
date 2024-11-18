@@ -222,20 +222,20 @@ footer {
   padding-block-start: 36px;
 }
 
-address ul {
+.footer-info ul {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.address-item {
+.footer-info-item {
   display: flex;
   column-gap: 16px;
   max-width: 340px;
 }
 
-.address-item p,
-.address-item span {
+.footer-info-item p,
+.footer-info-item span {
   color: #fff;
   font-size: 14px;
   font-weight: 400;
